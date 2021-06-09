@@ -1,0 +1,64 @@
+ul.error,
+ul.errors {
+  background-color: red;
+  color: black;
+}
+.signu-b {
+  background: rgb(255, 193, 7);
+  background: radial-gradient(
+    circle,
+    rgba(255, 193, 7, 0.8464519596901261) 0%,
+    rgba(233, 233, 148, 1) 100%
+  );
+}
+.myinput,
+.mybutton {
+  background-color: #ffc107;
+  color: #0000;
+  border-radius: 24px;
+  outline: 0;
+}
+#container-sign {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.company-container,
+.user-container {
+  margin: 10px;
+  margin-top: 50px;
+}
+.company-container form > input,
+.user-container form > input {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+.company-container form {
+  background-color: #deab14;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user-container form {
+  background-color: #aaa;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 428.4px;
+}
+h2 {
+  text-align: center;
+  color: white;
+}
